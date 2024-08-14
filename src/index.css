@@ -1,0 +1,45 @@
+body{
+    background: #D1913C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px;
+}
+
+.button{
+    padding: 6px;
+    border-radius: 10px;
+    background-color: rgb(30, 134, 30);
+
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(160, 26, 26);
+    font-style: italic;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+input{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding:4px 8px;
+}
+
+button{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding:4px 8px;
+    width: 10vw;
+    border:none;
+    background-color: rgb(197, 45, 45);
+    color: white;
+}
