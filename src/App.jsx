@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import Booking from "./components/Booking"
 import "./index.css"
 import { Link } from "react-router-dom"
+import Fetch from "./pages/fetch"
 
 function App() {
   const [guestName, setGuestName] = useState("")
@@ -51,6 +52,8 @@ function App() {
     <Link to = "/">Home</Link>
     <br />
     <Link to = "/about">About</Link>
+    <br />
+    <Link to = "/fetch">Fetch</Link>
 
     <h1 className="title">BOOKING LISTS</h1>
     <div>
@@ -77,7 +80,7 @@ function App() {
 
       <button>Book</button>  
     </form>
-   
+   <Fetch />
     </div>
       
     </>
